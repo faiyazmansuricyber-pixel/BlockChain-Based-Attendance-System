@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Hardhat build artifacts & cache
+artifacts/
+src/artifacts/
+cache/
+
+# Production build
+dist/
+
+# Test coverage
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# Generated contract configuration
+src/utils/contractConfig.js
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Scratch testing scripts
+scratch/
+temp_fresh_clone/
